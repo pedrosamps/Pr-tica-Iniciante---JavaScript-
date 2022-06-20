@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CONVERSÃO DE MOEDA ESTRANGEIRA</title>
+</head>
+<body>
+    <header>
+        Convertor de moeda
+    </header>
+    <section>
+        <div>
+            Moeda <input type="text" name="txtm" id="moeda" ><br>
+            Valor R$ <input type="number" name="textv" id="valor"><br>
+            <input type="button" value="Converter" onclick="conversor()">
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <p>OBS: Somente é possível converter para dólar, euro e libra esterlina.
+        Os valores aqui a serem convertidos, estão sendo considerados apenas do dia 20/06/2022.</p> 
+    <p>OBS 2: Como estou em fase de aprendizado, tais valores foram manualmente inseridos. Sendo descartada a atualização em tempo real.</p>
+    <footer><br>Feito por Pedro Henrique Sampaio Ferreira</footer>
+    <script src="script.js"></script>
+</body>
+</html>
